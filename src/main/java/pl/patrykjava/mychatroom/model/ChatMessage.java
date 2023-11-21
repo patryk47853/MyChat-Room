@@ -1,6 +1,7 @@
-package pl.patrykjava.mychatroom;
+package pl.patrykjava.mychatroom.model;
 
 import lombok.*;
+import pl.patrykjava.mychatroom.utils.MessageType;
 
 @Getter
 @Setter
@@ -12,4 +13,5 @@ public class ChatMessage {
     private String content;
     private String sender;
     private MessageType type;
+    private String time;
 }

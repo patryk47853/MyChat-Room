@@ -1,4 +1,4 @@
-package pl.patrykjava.mychatroom;
+package pl.patrykjava.mychatroom.utils;
 
 public enum MessageType {
 
